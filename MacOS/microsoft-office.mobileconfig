@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadDescription</key>
+	<string>Microsoft Office Settings</string>
+	<key>PayloadDisplayName</key>
+	<string>Microsoft Office Settings</string>
+	<key>PayloadIdentifier</key>
+	<string>au.org.name.device.config.office365</string>
+	<key>PayloadOrganization</key>
+	<string>Company Name</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>3D1E0406-9F23-4BD7-AD30-F86680E056BB</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadContent</key>
+	<array>
+
+		<!-- Profile Removal Password -->
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Profile Removal</string>
+			<key>PayloadIdentifier</key>
+			<string>au.org.name.profileRemovalPassword</string>
+			<key>PayloadType</key>
+			<string>com.apple.profileRemovalPassword</string>
+			<key>PayloadUUID</key>
+			<string>24F3A696-4235-4084-B47C-EFEE55A654FC</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>RemovalPassword</key>
+			<string>YOURPASSWORD</string>
+		</dict>
+
+		<!-- Word Configuration -->
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Managed Preferences (com.microsoft.Word)</string>
+			<key>PayloadIdentifier</key>
+			<string>au.org.name.managedclient.preferences.word</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>B6093B10-ADBC-4FE5-A754-5B8B22CBEAA4</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadContent</key>
+			<dict>
+				<key>com.microsoft.Word</key>
+				<dict>
+					<key>Forced</key>
+					<array>
+						<dict>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>SendAllTelemetryEnabled</key>
+								<false/>
+								<key>kSubUIAppCompletedFirstRunSetup1507</key>
+								<true/>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+
+		<!-- Excel Configuration -->
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Managed Preferences (com.microsoft.Excel)</string>
+			<key>PayloadIdentifier</key>
+			<string>au.org.name.managedclient.preferences.excel</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>1C81E757-DE02-46AB-90F0-560D2A85FCBF</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadContent</key>
+			<dict>
+				<key>com.microsoft.Excel</key>
+				<dict>
+					<key>Forced</key>
+					<array>
+						<dict>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>SendAllTelemetryEnabled</key>
+								<false/>
+								<key>kSubUIAppCompletedFirstRunSetup1507</key>
+								<true/>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+
+		<!-- PowerPoint Configuration -->
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Managed Preferences (com.microsoft.Powerpoint)</string>
+			<key>PayloadIdentifier</key>
+			<string>au.org.name.managedclient.preferences.powerpoint</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>8B23DBEA-2BD5-4A44-B43D-DE535B614CD6</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadContent</key>
+			<dict>
+				<key>com.microsoft.Powerpoint</key>
+				<dict>
+					<key>Forced</key>
+					<array>
+						<dict>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>SendAllTelemetryEnabled</key>
+								<false/>
+								<key>kSubUIAppCompletedFirstRunSetup1507</key>
+								<true/>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		
+	</array>
+</dict>
+</plist>

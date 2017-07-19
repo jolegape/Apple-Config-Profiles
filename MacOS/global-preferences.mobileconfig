@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadDescription</key>
+	<string>Global Preferences</string>
+	<key>PayloadDisplayName</key>
+	<string>Global Preferences</string>
+	<key>PayloadIdentifier</key>
+	<string>au.org.name.device.config.globalprefs</string>
+	<key>PayloadOrganization</key>
+	<string>Company Name</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>DACB6539-1F60-4636-B13C-5945DC596392</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadContent</key>
+	<array>
+
+		<!-- Profile Removal Password -->
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Profile Removal</string>
+			<key>PayloadIdentifier</key>
+			<string>au.org.name.profileRemovalPassword</string>
+			<key>PayloadType</key>
+			<string>com.apple.profileRemovalPassword</string>
+			<key>PayloadUUID</key>
+			<string>18419D0B-11CB-429D-A86B-77DF2AD6BDB9</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>RemovalPassword</key>
+			<string>YOURPASSWORD</string>
+		</dict>
+
+		<!-- Global Preferences -->
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Managed Preferences (.GlobalPreferences)</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>au.org.name.preferences.globalpreferences</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>04132D9A-AC6D-4961-8FA1-A2B9CDF48EBC</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadContent</key>
+			<dict>
+				<key>PayloadContent</key>
+				<dict>
+					<key>.GlobalPreferences</key>
+					<dict>
+						<key>Forced</key>
+						<array>
+							<dict>
+								<key>mcx_preference_settings</key>
+								<dict>
+									<key>NSDocumentSaveNewDocumentsToCloud</key>
+									<false/>
+									<key>NSAutomaticWindowAnimationsEnabled</key>
+									<false/>
+									<key>NSNavPanelExpandedForSaveMode</key>
+									<true/>
+									<key>PMPrintingExpandedStateForPrint</key>
+									<true/>
+									<key>AppleKeyboardUIMode</key>
+									<integer>3</integer>
+									<key>DSDontWriteNetworkStores</key>
+									<true/>
+									<key>DSDontWriteUSBStores</key>
+									<true/>
+								</dict>
+							</dict>
+						</array>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+		
+	</array>
+</dict>
+</plist>

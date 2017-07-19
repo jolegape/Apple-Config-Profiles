@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadDescription</key>
+	<string>Setup Assistant Settings</string>
+	<key>PayloadDisplayName</key>
+	<string>Setup Assistant Settings</string>
+	<key>PayloadIdentifier</key>
+	<string>au.org.name.device.config.setupassist</string>
+	<key>PayloadOrganization</key>
+	<string>Company Name</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>A4B189C6-B7E0-4500-A6FD-8936AA438387</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadContent</key>
+	<array>
+
+		<!-- Profile Removal Password -->
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Profile Removal</string>
+			<key>PayloadIdentifier</key>
+			<string>au.org.name.profileRemovalPassword</string>
+			<key>PayloadType</key>
+			<string>com.apple.profileRemovalPassword</string>
+			<key>PayloadUUID</key>
+			<string>CA8D9C1A-CD2A-4178-83CA-59DA8709B4FC</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>RemovalPassword</key>
+			<string>YOURPASSWORD</string>
+		</dict>
+
+		<!-- SetupAssistant -->
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Managed Preferences (com.apple.SetupAssistant)</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>au.org.name.preferences.SetupAssistant</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>F523C7CC-1CAD-4DC4-92F6-FE93744F1EC7</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadContent</key>
+			<dict>
+				<key>PayloadContent</key>
+				<dict>
+					<key>com.apple.SetupAssistant</key>
+					<dict>
+						<key>Forced</key>
+						<array>
+							<dict>
+								<key>mcx_preference_settings</key>
+								<dict>
+									<key>DidSeeSiriSetup</key>
+									<true/>
+									<key>DidSeeCloudSetup</key>
+									<true/>
+									<key>DidSeeSyncSetup</key>
+									<true/>
+									<key>DidSeeSyncSetup2</key>
+									<true/>
+									<key>LastSeenCloudProductVersion</key>
+									<string>10.12.4</string>
+									<key>RunNonInteractive</key>
+									<true/>
+									<key>GestureMovieSeen</key>
+									<string>none</string>
+									<key>SkipFirstLoginOptimization</key>
+									<true/>
+								</dict>
+							</dict>
+						</array>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+		
+	</array>
+</dict>
+</plist>

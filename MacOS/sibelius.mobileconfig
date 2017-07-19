@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadDescription</key>
+	<string>Sibelius Settings</string>
+	<key>PayloadDisplayName</key>
+	<string>Sibelius Settings</string>
+	<key>PayloadIdentifier</key>
+	<string>au.org.name.device.config.sibelius</string>
+	<key>PayloadOrganization</key>
+	<string>Company Name</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>6D9AFA59-81AC-4072-8B0E-2D0C95FD7F39</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadContent</key>
+	<array>
+
+		<!-- Profile Removal Password -->
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Profile Removal</string>
+			<key>PayloadIdentifier</key>
+			<string>au.org.name.profileRemovalPassword</string>
+			<key>PayloadType</key>
+			<string>com.apple.profileRemovalPassword</string>
+			<key>PayloadUUID</key>
+			<string>35F95A99-7E0B-404C-A624-BB8F868330E5</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>RemovalPassword</key>
+			<string>YOURPASSWORD</string>
+		</dict>
+
+		<!-- Sibelius Configuration -->
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Managed Preferences (com.avid.sibelius7)</string>
+			<key>PayloadIdentifier</key>
+			<string>au.org.name.managedclient.preferences.sibelius</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>7FA3E1C3-7EBF-4033-B116-7FDB6E93BBAE</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadContent</key>
+			<dict>
+				<key>com.avid.sibelius7</key>
+				<dict>
+					<key>Forced</key>
+					<array>
+						<dict>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>Preferences</key>
+								<dict>
+									<key>DoUpdateCheck</key>
+									<string>False</string>
+								</dict>
+								<key>StartupSound</key>
+								<dict>
+									<key>Data</key>
+									<string>False</string>
+								</dict>
+								<key>TimeOfLastUpdateCheck</key>
+								<dict>
+									<key>Data</key>
+									<string>0</string>
+								</dict>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		
+	</array>
+</dict>
+</plist>
