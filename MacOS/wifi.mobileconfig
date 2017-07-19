@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadDescription</key>
+	<string>Wifi Settings</string>
+	<key>PayloadDisplayName</key>
+	<string>Wifi Settings</string>
+	<key>PayloadIdentifier</key>
+	<string>au.org.name.device.config.wifi</string>
+	<key>PayloadOrganization</key>
+	<string>Company Name</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>2927579F-0FCD-4699-9B46-52FB85AF5903</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadContent</key>
+	<array>
+
+		<!-- Profile Removal Password -->
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Profile Removal</string>
+			<key>PayloadIdentifier</key>
+			<string>au.org.name.profileRemovalPassword</string>
+			<key>PayloadType</key>
+			<string>com.apple.profileRemovalPassword</string>
+			<key>PayloadUUID</key>
+			<string>46190AAA-9D90-4CDA-A147-21EA40318E3F</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>RemovalPassword</key>
+			<string>YOURPASSWORD</string>
+		</dict>
+
+		<!-- Wireless Configuration -->
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Wi-Fi Settings (SSIDNAME)</string>
+			<key>PayloadIdentifier</key>
+			<string>au.org.name.wifi1</string>
+			<key>PayloadType</key>
+			<string>com.apple.wifi.managed</string>
+			<key>PayloadUUID</key>
+			<string>0F4BBD96-0E97-4595-B431-F82FC151FC8F</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>AutoJoin</key>
+			<true/>
+			<key>CaptiveBypass</key>
+			<false/>
+			<key>EncryptionType</key>
+			<string>WPA</string>
+			<key>HIDDEN_NETWORK</key>
+			<false/>
+			<key>IsHotspot</key>
+			<false/>
+			<key>Password</key>
+			<string>WIFIPASSWORD</string>
+			<key>ProxyType</key>
+			<string>Auto</string>
+			<key>SSID_STR</key>
+			<string>SSIDNAME</string>
+			<key>SetupModes</key>
+			<array>
+				<string>System</string>
+			</array>
+		</dict>
+
+	</array>
+</dict>
+</plist>
