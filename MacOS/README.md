@@ -4,7 +4,7 @@ A collection of configuration profiles I have used or am currently using in my w
 
 I did not have access to a MacOS server profile configurator. All profiles were hand coded  by referencing the Apple Configuration Profile Reference help articles ([https://developer.apple.com/library/content/featuredarticles/iPhoneConfigurationProfileRef/Introduction/Introduction.html](https://developer.apple.com/library/content/featuredarticles/iPhoneConfigurationProfileRef/Introduction/Introduction.html)), a sample profile created by Apple Configurator for iOS devices and various other samples floating around on the internet.
 
-All profiles have a Payload Removal policy. This causes the profile to require a password to be removed. If you don't need this feature delete the Profile Removal Password block from the beginning of the file. If you do need it, ensure you change the removal password. These profiles can be signed with a certificate to prevent end users from viewing the raw contents with a text editor.
+All profiles have a Payload Removal policy. This prevents the profile from being removed without the password specified in the payload. If you don't need this feature delete the Profile Removal Password payload from the beginning of each file. If you do need it, ensure you change the removal password. These profiles can be signed with a certificate to prevent end users from viewing the raw contents with a text editor.
 
 The following changes will need to be made for all profiles to suit your environment:
 - any passwords / SSID's present
