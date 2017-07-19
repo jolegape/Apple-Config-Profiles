@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadDescription</key>
+	<string>Google Chrome Settings</string>
+	<key>PayloadDisplayName</key>
+	<string>Google Chrome Settings</string>
+	<key>PayloadIdentifier</key>
+	<string>au.org.name.device.config.googlechrome</string>
+	<key>PayloadOrganization</key>
+	<string>Company Name</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>C6C70BDE-7E55-47C9-8493-616A5348DAB0</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadContent</key>
+	<array>
+
+		<!-- Profile Removal Password -->
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Profile Removal</string>
+			<key>PayloadIdentifier</key>
+			<string>au.org.name.profileRemovalPassword</string>
+			<key>PayloadType</key>
+			<string>com.apple.profileRemovalPassword</string>
+			<key>PayloadUUID</key>
+			<string>24BAEA71-9352-441B-B641-DAF85F542674</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>RemovalPassword</key>
+			<string>YOURPASSWORD</string>
+		</dict>
+
+		<!-- Google Chrome -->
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Managed Preferences (com.google.Chrome)</string>
+			<key>PayloadIdentifier</key>
+			<string>au.org.name.managedclient.preferences.Chrome.612E8B2F-C851-4A8D-8824-F9A3D0FC7867</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>612E8B2F-C851-4A8D-8824-F9A3D0FC7867</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadContent</key>
+			<dict>
+				<key>com.google.Chrome</key>
+				<dict>
+					<key>Forced</key>
+					<array>
+						<dict>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>DefaultBrowserSettingEnabled</key>
+								<false/>
+								<key>BookmarkBarEnabled</key>
+								<true/>
+								<key>ManagedBookmarks</key>
+								<array>
+									<dict>
+										<key>name</key>
+										<string>Chrome Sign-In</string>
+										<key>url</key>
+										<string>chrome://chrome-signin/</string>
+									</dict>
+									<dict>
+										<key>name</key>
+										<string>SMC Launcher</string>
+										<key>url</key>
+										<string>https://launcher.stmonicas.qld.edu.au</string>
+									</dict>
+								</array>
+								<key>ShowHomeButton</key>
+								<true/>
+								<key>HideWebStorePromo</key>
+								<true/>
+								<key>HomepageIsNewTabPage</key>
+								<false/>
+								<key>HomepageLocation</key>
+								<string>https://launcher.stmonicas.qld.edu.au</string>
+								<key>RestoreOnStartup</key>
+								<integer>4</integer>
+								<key>RestoreOnStartupURLs</key>
+								<array>
+									<string>https://launcher.stmonicas.qld.edu.au</string>
+								</array>
+								<key>DisableSafeBrowsingProceedAnyway</key>
+								<true/>
+								<key>SafeBrowsingEnabled</key>
+								<true/>
+								<key>ExtensionInstallBlacklist</key>
+								<array>
+									<string>gkojfkhlekighikafcpjkiklfbnlmeio</string>
+								</array>
+								<key>ExtensionInstallForcelist</key>
+								<array>
+									<string>chphlpgkkbolifaimnlloiipkdnihall;https://clients2.google.com/service/update2/crx</string>
+									<string>gbkeegbaiigmenfmjfclcdgdpimamgkj;https://clients2.google.com/service/update2/crx</string>
+									<string>aohghmighlieiainnegkcijnfilokake;https://clients2.google.com/service/update2/crx</string>
+									<string>felcaaldnbdncclmgdcncolpebgiejap;https://clients2.google.com/service/update2/crx</string>
+									<string>aapocclcgogkmnckokdopfmhonfmgoek;https://clients2.google.com/service/update2/crx</string>
+									<string>aapbdbdomjkkjkaonfhkkikfgjllcleb;https://clients2.google.com/service/update2/crx</string>
+									<string>apdfllckaahabafndbhieahigkjlhalf;https://clients2.google.com/service/update2/crx</string>
+									<string>blpcfgokakmgnkcojhhkbfbldkacnbeo;https://clients2.google.com/service/update2/crx</string>
+									<string>pjkljhegncpnkpknbcohdijeoejaedia;https://clients2.google.com/service/update2/crx</string>
+								</array>
+								<key>ProxyMode</key>
+								<string>system</string>
+								<key>IncognitoModeAvailability</key>
+								<integer>1</integer>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+
+		<!-- Google Chrome AutoUpdate -->
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Managed Preferences (com.google.Keystone.Agent)</string>
+			<key>PayloadIdentifier</key>
+			<string>au.org.name.managedclient.preferences.ChromeUpdate.808152AE-B41E-41EA-AEAE-E3B106CFD9CC</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>808152AE-B41E-41EA-AEAE-E3B106CFD9CC</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadContent</key>
+			<dict>
+				<key>com.google.Keystone.Agent</key>
+				<dict>
+					<key>Forced</key>
+					<array>
+						<dict>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>checkInterval</key>
+								<real>0</real>
+								<key>hasRunSystemKeystone</key>
+								<true/>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+
+	</array>
+</dict>
+</plist>
