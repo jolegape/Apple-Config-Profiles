@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadDescription</key>
+	<string>Desktop Background Settings</string>
+	<key>PayloadDisplayName</key>
+	<string>Desktop Background Settings</string>
+	<key>PayloadIdentifier</key>
+	<string>au.org.name.device.config.background</string>
+	<key>PayloadOrganization</key>
+	<string>Company Name</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>6415A33B-81B7-47EB-9A30-6F64636479A8</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadContent</key>
+	<array>
+
+		<!-- Profile Removal Password -->
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Profile Removal</string>
+			<key>PayloadIdentifier</key>
+			<string>au.org.name.profileRemovalPassword</string>
+			<key>PayloadType</key>
+			<string>com.apple.profileRemovalPassword</string>
+			<key>PayloadUUID</key>
+			<string>A5C4C26C-4B39-4171-9B82-9EE4103834E3</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>RemovalPassword</key>
+			<string>YOURPASSWORD</string>
+		</dict>
+
+		<!-- Desktop Background -->
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Desktop Background</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>au.org.name.background</string>
+			<key>PayloadType</key>
+			<string>com.apple.desktop</string>
+			<key>PayloadUUID</key>
+			<string>D0101A80-B3EF-48DE-A8C0-1FA0B7200A5F</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>locked</key>
+			<true/>
+			<key>override-picture-path</key>
+			<string>/Library/Desktop Pictures/SMCBackground.png</string>
+		</dict>
+
+	</array>
+</dict>
+</plist>
