@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadDescription</key>
+	<string>Finder Settings</string>
+	<key>PayloadDisplayName</key>
+	<string>Finder Settings</string>
+	<key>PayloadIdentifier</key>
+	<string>au.org.name.device.config.finder</string>
+	<key>PayloadOrganization</key>
+	<string>Company Name</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>16E7F383-B2B7-458F-982E-35A56DFA47CF</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadContent</key>
+	<array>
+
+		<!-- Profile Removal Password -->
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Profile Removal</string>
+			<key>PayloadIdentifier</key>
+			<string>au.org.name.profileRemovalPassword</string>
+			<key>PayloadType</key>
+			<string>com.apple.profileRemovalPassword</string>
+			<key>PayloadUUID</key>
+			<string>6DB9FFAD-0F34-46BB-B5DE-F64294D87A06</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>RemovalPassword</key>
+			<string>YOURPASSWORD</string>
+		</dict>
+
+		<!-- Finder Preferences -->
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Finder Default Settings</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>au.org.name.finder</string>
+			<key>PayloadType</key>
+			<string>com.apple.finder</string>
+			<key>PayloadUUID</key>
+			<string>2F3958FD-E3A4-4CB2-9726-15F5A172FA41</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ShowHardDrivesOnDesktop</key>
+			<true/>
+			<key>ShowExternalHardDrivesOnDesktop</key>
+			<true/>
+			<key>ShowMountedServersOnDesktop</key>
+			<false/>
+			<key>ShowRemovableMediaOnDesktop</key>
+			<true/>
+			<key>ShowStatusBar</key>
+			<true/>
+			<key>ShowPathBar</key>
+			<true/>
+			<key>QLEnableTextSelection</key>
+			<true/>
+			<key>_FXShowPosixPathInTitle</key>
+			<true/>
+			<key>FXDefaultSearchScope</key>
+			<string>SCcf</string>
+			<key>FXInfoPanesExpanded</key>
+			<dict>
+				<key>General</key>
+				<true/>
+				<key>OpenWith</key>
+				<true/>
+				<key>Privileges</key>
+				<true/>
+			</dict>
+			<key>FXPreferredViewStyle</key>
+			<string>Nlsv</string>
+			<key>networkbrowser</key>
+			<dict>
+				<key>Controller</key>
+				<string>CustomListItems</string>
+				<key>CustomListItems</key>
+				<array/>
+				<key>CustomListProperties</key>
+				<dict>
+					<key>com.apple.NetworkBrowser.backtoMyMacEnabled</key>
+					<false/>
+					<key>com.apple.NetworkBrowser.bonjourEnabled</key>
+					<false/>
+					<key>com.apple.NetworkBrowser.connectedEnabled</key>
+					<true/>
+				</dict>
+			</dict>
+			<key>systemitems</key>
+			<dict>
+				<key>ShowEjectables</key>
+				<true/>
+				<key>ShowHardDisks</key>
+				<true/>
+				<key>ShowRemovable</key>
+				<true/>
+				<key>ShowServers</key>
+				<false/>
+			</dict>
+		</dict>
+
+	</array>
+</dict>
+</plist>
