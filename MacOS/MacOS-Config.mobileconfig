@@ -7,7 +7,7 @@
 	<key>PayloadDisplayName</key>
 	<string>SMC Apple Device Configuration</string>
 	<key>PayloadIdentifier</key>
-	<string>au.org.name.smc.device.config</string>
+	<string>au.edu.qld.stmonicas.smc.device.config</string>
 	<key>PayloadOrganization</key>
 	<string>St Monica's College, Cairns</string>
 	<key>PayloadRemovalDisallowed</key>
@@ -28,7 +28,7 @@
 			<key>PayloadDisplayName</key>
 			<string>Profile Removal</string>
 			<key>PayloadIdentifier</key>
-			<string>au.org.name.profileRemovalPassword</string>
+			<string>au.edu.qld.stmonicas.profileRemovalPassword</string>
 			<key>PayloadType</key>
 			<string>com.apple.profileRemovalPassword</string>
 			<key>PayloadUUID</key>
@@ -44,7 +44,7 @@
 			<key>PayloadDisplayName</key>
 			<string>Wi-Fi Settings (SSIDNAME)</string>
 			<key>PayloadIdentifier</key>
-			<string>au.org.name.wifi1</string>
+			<string>au.edu.qld.stmonicas.wifi1</string>
 			<key>PayloadType</key>
 			<string>com.apple.wifi.managed</string>
 			<key>PayloadUUID</key>
@@ -80,7 +80,7 @@
 			<key>PayloadEnabled</key>
 			<true/>
 			<key>PayloadIdentifier</key>
-			<string>au.org.name.background</string>
+			<string>au.edu.qld.stmonicas.background</string>
 			<key>PayloadType</key>
 			<string>com.apple.desktop</string>
 			<key>PayloadUUID</key>
@@ -100,7 +100,7 @@
 			<key>PayloadEnabled</key>
 			<true/>
 			<key>PayloadIdentifier</key>
-			<string>au.org.name.systempreferences</string>
+			<string>au.edu.qld.stmonicas.systempreferences</string>
 			<key>PayloadType</key>
 			<string>com.apple.systempreferences</string>
 			<key>PayloadUUID</key>
@@ -122,7 +122,7 @@
 			<key>PayloadEnabled</key>
 			<true/>
 			<key>PayloadIdentifier</key>
-			<string>au.org.name.dock</string>
+			<string>au.edu.qld.stmonicas.dock</string>
 			<key>PayloadType</key>
 			<string>com.apple.dock</string>
 			<key>PayloadUUID</key>
@@ -289,7 +289,7 @@
 			<key>PayloadEnabled</key>
 			<true/>
 			<key>PayloadIdentifier</key>
-			<string>au.org.name.loginitems</string>
+			<string>au.edu.qld.stmonicas.loginitems</string>
 			<key>PayloadType</key>
 			<string>com.apple.loginitems.managed</string>
 			<key>PayloadUUID</key>
@@ -314,7 +314,7 @@
 			<key>PayloadEnabled</key>
 			<true/>
 			<key>PayloadIdentifier</key>
-			<string>au.org.name.loginwindow</string>
+			<string>au.edu.qld.stmonicas.loginwindow</string>
 			<key>PayloadType</key>
 			<string>com.apple.loginwindow</string>
 			<key>PayloadUUID</key>
@@ -344,7 +344,7 @@
 			<key>PayloadEnabled</key>
 			<true/>
 			<key>PayloadIdentifier</key>
-			<string>au.org.name.diagnostics1</string>
+			<string>au.edu.qld.stmonicas.diagnostics1</string>
 			<key>PayloadType</key>
 			<string>com.apple.SubmitDiagInfo</string>
 			<key>PayloadUUID</key>
@@ -362,7 +362,7 @@
 			<key>PayloadEnabled</key>
 			<true/>
 			<key>PayloadIdentifier</key>
-			<string>au.org.name.diagnostics2</string>
+			<string>au.edu.qld.stmonicas.diagnostics2</string>
 			<key>PayloadType</key>
 			<string>com.apple.applicationaccess</string>
 			<key>PayloadUUID</key>
@@ -384,7 +384,7 @@
 			<key>PayloadEnabled</key>
 			<true/>
 			<key>PayloadIdentifier</key>
-			<string>au.org.name.finder</string>
+			<string>au.edu.qld.stmonicas.finder</string>
 			<key>PayloadType</key>
 			<string>com.apple.finder</string>
 			<key>PayloadUUID</key>
@@ -456,7 +456,7 @@
 			<key>PayloadDisplayName</key>
 			<string>Managed Preferences (com.google.Chrome)</string>
 			<key>PayloadIdentifier</key>
-			<string>au.org.name.managedclient.preferences.Chrome.612E8B2F-C851-4A8D-8824-F9A3D0FC7867</string>
+			<string>au.edu.qld.stmonicas.managedclient.preferences.Chrome.612E8B2F-C851-4A8D-8824-F9A3D0FC7867</string>
 			<key>PayloadType</key>
 			<string>com.apple.ManagedClient.preferences</string>
 			<key>PayloadUUID</key>
@@ -543,7 +543,7 @@
 			<key>PayloadDisplayName</key>
 			<string>Managed Preferences (com.google.Keystone.Agent)</string>
 			<key>PayloadIdentifier</key>
-			<string>au.org.name.managedclient.preferences.ChromeUpdate.808152AE-B41E-41EA-AEAE-E3B106CFD9CC</string>
+			<string>au.edu.qld.stmonicas.managedclient.preferences.ChromeUpdate.808152AE-B41E-41EA-AEAE-E3B106CFD9CC</string>
 			<key>PayloadType</key>
 			<string>com.apple.ManagedClient.preferences</string>
 			<key>PayloadUUID</key>
@@ -579,7 +579,7 @@
 			<key>PayloadEnabled</key>
 			<true/>
 			<key>PayloadIdentifier</key>
-			<string>au.org.name.preferences.assistant.support</string>
+			<string>au.edu.qld.stmonicas.preferences.assistant.support</string>
 			<key>PayloadType</key>
 			<string>com.apple.ManagedClient.preferences</string>
 			<key>PayloadUUID</key>
@@ -614,7 +614,7 @@
 			<key>PayloadEnabled</key>
 			<true/>
 			<key>PayloadIdentifier</key>
-			<string>au.org.name.preferences.Siri</string>
+			<string>au.edu.qld.stmonicas.preferences.Siri</string>
 			<key>PayloadType</key>
 			<string>com.apple.ManagedClient.preferences</string>
 			<key>PayloadUUID</key>
@@ -651,7 +651,7 @@
 			<key>PayloadEnabled</key>
 			<true/>
 			<key>PayloadIdentifier</key>
-			<string>au.org.name.preferences.security</string>
+			<string>au.edu.qld.stmonicas.preferences.security</string>
 			<key>PayloadType</key>
 			<string>com.apple.ManagedClient.preferences</string>
 			<key>PayloadUUID</key>
@@ -686,7 +686,7 @@
 			<key>PayloadEnabled</key>
 			<true/>
 			<key>PayloadIdentifier</key>
-			<string>au.org.name.preferences.globalpreferences</string>
+			<string>au.edu.qld.stmonicas.preferences.globalpreferences</string>
 			<key>PayloadType</key>
 			<string>com.apple.ManagedClient.preferences</string>
 			<key>PayloadUUID</key>
@@ -733,7 +733,7 @@
 			<key>PayloadEnabled</key>
 			<true/>
 			<key>PayloadIdentifier</key>
-			<string>au.org.name.preferences.SetupAssistant</string>
+			<string>au.edu.qld.stmonicas.preferences.SetupAssistant</string>
 			<key>PayloadType</key>
 			<string>com.apple.ManagedClient.preferences</string>
 			<key>PayloadUUID</key>
@@ -780,7 +780,7 @@
 			<key>PayloadDisplayName</key>
 			<string>Managed Preferences (com.microsoft.Word)</string>
 			<key>PayloadIdentifier</key>
-			<string>au.org.name.managedclient.preferences.word</string>
+			<string>au.edu.qld.stmonicas.managedclient.preferences.word</string>
 			<key>PayloadType</key>
 			<string>com.apple.ManagedClient.preferences</string>
 			<key>PayloadUUID</key>
@@ -814,7 +814,7 @@
 			<key>PayloadDisplayName</key>
 			<string>Managed Preferences (com.microsoft.Excel)</string>
 			<key>PayloadIdentifier</key>
-			<string>au.org.name.managedclient.preferences.excel</string>
+			<string>au.edu.qld.stmonicas.managedclient.preferences.excel</string>
 			<key>PayloadType</key>
 			<string>com.apple.ManagedClient.preferences</string>
 			<key>PayloadUUID</key>
@@ -848,7 +848,7 @@
 			<key>PayloadDisplayName</key>
 			<string>Managed Preferences (com.microsoft.Powerpoint)</string>
 			<key>PayloadIdentifier</key>
-			<string>au.org.name.managedclient.preferences.powerpoint</string>
+			<string>au.edu.qld.stmonicas.managedclient.preferences.powerpoint</string>
 			<key>PayloadType</key>
 			<string>com.apple.ManagedClient.preferences</string>
 			<key>PayloadUUID</key>
@@ -882,7 +882,7 @@
 			<key>PayloadDisplayName</key>
 			<string>Managed Preferences (com.videolan.vlc)</string>
 			<key>PayloadIdentifier</key>
-			<string>au.org.name.managedclient.preferences.vlc</string>
+			<string>au.edu.qld.stmonicas.managedclient.preferences.vlc</string>
 			<key>PayloadType</key>
 			<string>com.apple.ManagedClient.preferences</string>
 			<key>PayloadUUID</key>
@@ -918,7 +918,7 @@
 			<key>PayloadDisplayName</key>
 			<string>Managed Preferences (com.avid.sibelius7)</string>
 			<key>PayloadIdentifier</key>
-			<string>au.org.name.managedclient.preferences.sibelius</string>
+			<string>au.edu.qld.stmonicas.managedclient.preferences.sibelius</string>
 			<key>PayloadType</key>
 			<string>com.apple.ManagedClient.preferences</string>
 			<key>PayloadUUID</key>
@@ -963,7 +963,7 @@
 			<key>PayloadDisplayName</key>
 			<string>Managed Preferences (com.apple.garageband10)</string>
 			<key>PayloadIdentifier</key>
-			<string>au.org.name.managedclient.preferences.garageband</string>
+			<string>au.edu.qld.stmonicas.managedclient.preferences.garageband</string>
 			<key>PayloadType</key>
 			<string>com.apple.ManagedClient.preferences</string>
 			<key>PayloadUUID</key>
