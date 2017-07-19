@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadDescription</key>
+	<string>Login Window Settings</string>
+	<key>PayloadDisplayName</key>
+	<string>Login Window Settings</string>
+	<key>PayloadIdentifier</key>
+	<string>au.org.name.device.config.loginwindow</string>
+	<key>PayloadOrganization</key>
+	<string>Company Name</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>E3A4B387-3A11-4925-8373-5566B5C284F8</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadContent</key>
+	<array>
+
+		<!-- Profile Removal Password -->
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Profile Removal</string>
+			<key>PayloadIdentifier</key>
+			<string>au.org.name.profileRemovalPassword</string>
+			<key>PayloadType</key>
+			<string>com.apple.profileRemovalPassword</string>
+			<key>PayloadUUID</key>
+			<string>7F6915F4-11EE-4B1E-A4A4-F6849F3D703E</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>RemovalPassword</key>
+			<string>YOURPASSWORD</string>
+		</dict>
+
+		<!-- Login Window Settings -->
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Login Window Settings</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>au.org.name.loginwindow</string>
+			<key>PayloadType</key>
+			<string>com.apple.loginwindow</string>
+			<key>PayloadUUID</key>
+			<string>7BEE3E4F-B6B1-4B76-A201-998A4118DAE2</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>AdminHostInfo</key>
+			<string>HostName</string>
+			<key>SHOWFULLNAME</key>
+			<true/>
+			<!-- <key>IncludeNetworkUser</key>
+			<false/> -->
+			<key>SHOWOTHERUSERS_MANAGED</key>
+			<true/>
+			<key>DisableLoginItemsSuppression</key>
+			<false/>
+			<key>LoginwindowText</key>
+			<string>Please enter your SMC username and password. If the network is unavailable login with the username 'smcuser'.</string>
+			<key>DesktopPicture</key>
+			<string>/Library/Desktop Pictures/SMCBackground.png</string>
+		</dict>
+
+	</array>
+</dict>
+</plist>
