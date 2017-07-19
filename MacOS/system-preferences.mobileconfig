@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadDescription</key>
+	<string>System Preferences Pane Settings</string>
+	<key>PayloadDisplayName</key>
+	<string>System Preferences Pane Settings</string>
+	<key>PayloadIdentifier</key>
+	<string>au.org.name.device.config.systempreferences</string>
+	<key>PayloadOrganization</key>
+	<string>Company Name</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>72CA3813-D121-4B9A-B95D-7EDA9B3FCD4A</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadContent</key>
+	<array>
+
+		<!-- Profile Removal Password -->
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Profile Removal</string>
+			<key>PayloadIdentifier</key>
+			<string>au.org.name.profileRemovalPassword</string>
+			<key>PayloadType</key>
+			<string>com.apple.profileRemovalPassword</string>
+			<key>PayloadUUID</key>
+			<string>E82DE29B-FB0D-4D17-85C5-ABB193690D97</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>RemovalPassword</key>
+			<string>YOURPASSWORD</string>
+		</dict>
+
+		<!-- System Preferences -->
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Disable System Preference Panes</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>au.org.name.systempreferences</string>
+			<key>PayloadType</key>
+			<string>com.apple.systempreferences</string>
+			<key>PayloadUUID</key>
+			<string>045B007B-730E-44D5-9DB0-FCDE293294F0</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>DisabledPreferencePanes</key>
+			<array>
+				<string>com.apple.preferences.icloud</string>
+				<string>com.apple.preferences.internetaccounts</string>
+				<string>com.apple.prefs.backup</string>
+			</array>
+		</dict>
+
+	</array>
+</dict>
+</plist>
