@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadDescription</key>
+	<string>Dock Layout Settings</string>
+	<key>PayloadDisplayName</key>
+	<string>Dock Layout Settings</string>
+	<key>PayloadIdentifier</key>
+	<string>au.org.name.device.config.dock</string>
+	<key>PayloadOrganization</key>
+	<string>Company Name</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>2381B173-EC8B-4DD8-913B-634EAB78B574</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadContent</key>
+	<array>
+
+		<!-- Profile Removal Password -->
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Profile Removal</string>
+			<key>PayloadIdentifier</key>
+			<string>au.org.name.profileRemovalPassword</string>
+			<key>PayloadType</key>
+			<string>com.apple.profileRemovalPassword</string>
+			<key>PayloadUUID</key>
+			<string>53FBF5DE-A684-431D-8DF2-E03FA306C734</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>RemovalPassword</key>
+			<string>YOURPASSWORD</string>
+		</dict>
+
+		<!-- Dock Layout -->
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>SMC Dock Template</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>au.org.name.dock</string>
+			<key>PayloadType</key>
+			<string>com.apple.dock</string>
+			<key>PayloadUUID</key>
+			<string>9670C7EF-169B-4486-9D60-DB0D11CD5716</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>autohide</key>
+			<false/>
+			<key>contents-immutable</key>
+			<false/>
+			<key>showhidden</key>
+			<true/>
+			<key>mineffect</key>
+			<string>suck</string>
+			<key>static-apps</key>
+			<array>
+				<dict>
+					<key>tile-data</key>
+					<dict>
+						<key>file-data</key>
+						<dict>
+							<key>_CFURLString</key>
+							<string>/Applications/Launchpad.app</string>
+							<key>_CFURLStringType</key>
+							<integer>0</integer>
+						</dict>
+					</dict>
+					<key>tile-type</key>
+					<string>file-tile</string>
+				</dict>
+				<dict>
+					<key>tile-data</key>
+					<dict>
+						<key>file-label</key>
+						<string></string>
+					</dict>
+					<key>tile-type</key>
+					<string>spacer-tile</string>
+				</dict>
+				<dict>
+					<key>tile-data</key>
+					<dict>
+						<key>file-data</key>
+						<dict>
+							<key>_CFURLString</key>
+							<string>/Applications/Google Chrome.app</string>
+							<key>_CFURLStringType</key>
+							<integer>0</integer>
+						</dict>
+					</dict>
+					<key>tile-type</key>
+					<string>file-tile</string>
+				</dict>
+				<dict>
+					<key>tile-data</key>
+					<dict>
+						<key>file-data</key>
+						<dict>
+							<key>_CFURLString</key>
+							<string>/Applications/Microsoft Word.app</string>
+							<key>_CFURLStringType</key>
+							<integer>0</integer>
+						</dict>
+					</dict>
+					<key>tile-type</key>
+					<string>file-tile</string>
+				</dict>
+				<dict>
+					<key>tile-data</key>
+					<dict>
+						<key>file-data</key>
+						<dict>
+							<key>_CFURLString</key>
+							<string>/Applications/Microsoft Excel.app</string>
+							<key>_CFURLStringType</key>
+							<integer>0</integer>
+						</dict>
+					</dict>
+					<key>tile-type</key>
+					<string>file-tile</string>
+				</dict>
+				<dict>
+					<key>tile-data</key>
+					<dict>
+						<key>file-data</key>
+						<dict>
+							<key>_CFURLString</key>
+							<string>/Applications/Microsoft PowerPoint.app</string>
+							<key>_CFURLStringType</key>
+							<integer>0</integer>
+						</dict>
+					</dict>
+					<key>tile-type</key>
+					<string>file-tile</string>
+				</dict>
+				<dict>
+					<key>tile-data</key>
+					<dict>
+						<key>file-label</key>
+						<string></string>
+					</dict>
+					<key>tile-type</key>
+					<string>spacer-tile</string>
+				</dict>
+				<dict>
+					<key>tile-data</key>
+					<dict>
+						<key>file-data</key>
+						<dict>
+							<key>_CFURLString</key>
+							<string>/Applications/System Preferences.app</string>
+							<key>_CFURLStringType</key>
+							<integer>0</integer>
+						</dict>
+					</dict>
+					<key>tile-type</key>
+					<string>file-tile</string>
+				</dict>
+			</array>
+			<key>static-only</key>
+			<true/>
+			<key>static-others</key>
+			<array>
+				<dict>
+					<key>tile-data</key>
+					<dict>
+						<key>arrangement</key>
+						<integer>2</integer>
+						<key>displayas</key>
+						<integer>2</integer>
+						<key>home directory relative</key>
+						<string>~/Downloads</string>
+						<key>showas</key>
+						<integer>1</integer>
+					</dict>
+					<key>tile-type</key>
+					<string>directory-tyle</string>
+				</dict>
+				<dict>
+					<key>tile-data</key>
+					<dict>
+						<key>label</key>
+						<string>SMC Launcher</string>
+						<key>url</key>
+						<dict>
+							<key>_CFURLString</key>
+							<string>https://intranet.org.au</string>
+							<key>_CFURLStringType</key>
+							<integer>15</integer>
+						</dict>
+					</dict>
+					<key>tile-type</key>
+					<string>url-tile</string>
+				</dict>
+			</array>
+		</dict>
+
+	</array>
+</dict>
+</plist>
