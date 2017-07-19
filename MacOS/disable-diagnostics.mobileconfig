@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadDescription</key>
+	<string>Diagnostics and Reporting Settings</string>
+	<key>PayloadDisplayName</key>
+	<string>Diagnostics and Reporting Settings</string>
+	<key>PayloadIdentifier</key>
+	<string>au.org.name.device.config.diags</string>
+	<key>PayloadOrganization</key>
+	<string>Company Name</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>C768CEE4-5B37-4943-B087-A14A4A585357</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadContent</key>
+	<array>
+
+		<!-- Profile Removal Password -->
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Profile Removal</string>
+			<key>PayloadIdentifier</key>
+			<string>au.org.name.profileRemovalPassword</string>
+			<key>PayloadType</key>
+			<string>com.apple.profileRemovalPassword</string>
+			<key>PayloadUUID</key>
+			<string>579CBB41-B492-4BEE-BBEB-DA44A23CE908</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>RemovalPassword</key>
+			<string>YOURPASSWORD</string>
+		</dict>
+
+		<!-- Disable diagnostic reporting -->
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Disable Diagnostics</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>au.org.name.diagnostics1</string>
+			<key>PayloadType</key>
+			<string>com.apple.SubmitDiagInfo</string>
+			<key>PayloadUUID</key>
+			<string>C271468B-F936-4A33-8AC7-F4D92125792E</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>AutoSubmit</key>
+			<false/>
+		</dict>
+
+		<!-- Restrictions -->
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Restrictions</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>au.org.name.diagnostics2</string>
+			<key>PayloadType</key>
+			<string>com.apple.applicationaccess</string>
+			<key>PayloadUUID</key>
+			<string>9D977CC1-4846-44D6-92C3-C2F71C8E398B</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>allowDiagnosticSubmission</key>
+			<false/>
+		</dict>
+
+	</array>
+</dict>
+</plist>
