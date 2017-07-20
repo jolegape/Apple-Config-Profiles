@@ -56,7 +56,7 @@
 			<key>CaptiveBypass</key>
 			<false/>
 			<key>EncryptionType</key>
-			<string>WPA</string>
+			<string>WPA2</string>
 			<key>HIDDEN_NETWORK</key>
 			<false/>
 			<key>IsHotspot</key>
