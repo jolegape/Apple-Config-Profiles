@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadDescription</key>
+	<string>Google Exchange ActiveSync Settings</string>
+	<key>PayloadDisplayName</key>
+	<string>Google Exchange ActiveSync Settings</string>
+	<key>PayloadIdentifier</key>
+	<string>au.org.name.device.config.GoogleExchange</string>
+	<key>PayloadOrganization</key>
+	<string>Company Name</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>155ED10D-31C8-41EC-90D8-98D5FC39359D</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadContent</key>
+	<array>
+
+		<!-- Profile Removal Password -->
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Profile Removal</string>
+			<key>PayloadIdentifier</key>
+			<string>au.org.name.profileRemovalPassword</string>
+			<key>PayloadType</key>
+			<string>com.apple.profileRemovalPassword</string>
+			<key>PayloadUUID</key>
+			<string>60EAB07A-0CFB-4F4E-BE26-6BD2BA2CD8B0</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>RemovalPassword</key>
+			<string>YOURPASSWORD</string>
+		</dict>
+
+		<!-- Exchange Configuration -->
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Exchange Settings (GoogleApps)</string>
+			<key>PayloadIdentifier</key>
+			<string>au.org.name.exchange1</string>
+			<key>PayloadType</key>
+			<string>com.apple.eas.account</string>
+			<key>PayloadUUID</key>
+			<string>F75FA7DE-0C6B-4381-8230-BF68C9452216</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Host</key>
+			<string>m.google.com</string>
+			<key>SSL</key>
+			<true/>
+			<key>MailNumberOfPastDaysToSync</key>
+			<integer>7</integer>
+		</dict>
+
+	</array>
+</dict>
+</plist>
