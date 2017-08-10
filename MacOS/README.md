@@ -31,5 +31,7 @@ The following profiles are provided for individual use:
 16. VLC ([vlc.mobileconfig](https://github.com/jolegape/Apple-Config-Profiles/blob/master/MacOS/vlc.mobileconfig "vlc.mobileconfig"))
 17. Sibelius ([sibelius.mobileconfig](https://github.com/jolegape/Apple-Config-Profiles/blob/master/MacOS/sibelius.mobileconfig "sibelius.mobileconfig"))
 18. GarageBand ([garageband.mobileconfig](https://github.com/jolegape/Apple-Config-Profiles/blob/master/MacOS/garageband.mobileconfig "garageband.mobileconfig"))
+19. Software Updates ([software-update.mobileconfig](https://github.com/jolegape/Apple-Config-Profiles/blob/master/MacOS/software-update.mobileconfig "software-update.mobileconfig"))
+
 
 I have also provided the main profile I use for deployment ([MacOS-Config.mobileconfig](https://github.com/jolegape/Apple-Config-Profiles/blob/master/MacOS/MacOS-Config.mobileconfig "MacOS-Config.mobileconfig")), minus any sensitive information such as passwords.

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadDescription</key>
+	<string>Software Update Settings</string>
+	<key>PayloadDisplayName</key>
+	<string>Software Update Settings</string>
+	<key>PayloadIdentifier</key>
+	<string>au.org.name.device.config.Updates</string>
+	<key>PayloadOrganization</key>
+	<string>Company Name</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>D9F89B07-809D-494E-8F6A-75DDE0F9A0F0</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadContent</key>
+	<array>
+
+		<!-- Profile Removal Password -->
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Profile Removal</string>
+			<key>PayloadIdentifier</key>
+			<string>au.org.name.profileRemovalPassword</string>
+			<key>PayloadType</key>
+			<string>com.apple.profileRemovalPassword</string>
+			<key>PayloadUUID</key>
+			<string>48A011DF-3329-4DC7-93D0-1501916FED71</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>RemovalPassword</key>
+			<string>YOURPASSWORD</string>
+		</dict>
+
+		<!-- Software Update Configuration -->
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Software Update Settings</string>
+			<key>PayloadIdentifier</key>
+			<string>au.org.name.SoftwareUpdate</string>
+			<key>PayloadType</key>
+			<string>com.apple.SoftwareUpdate</string>
+			<key>PayloadUUID</key>
+			<string>622DC38F-CC50-413C-9200-1B4ABC40B8B4</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>AutomaticCheckEnabled</key>
+			<false/>
+		</dict>
+
+		<!-- AppStore Updates -->
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>App Store Automatic Update Settings</string>
+			<key>PayloadIdentifier</key>
+			<string>au.org.name.commerce</string>
+			<key>PayloadType</key>
+			<string>com.apple.commerce</string>
+			<key>PayloadUUID</key>
+			<string>D4CEC6BF-09F4-4BB1-9B6B-BCB6BD729F00</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>AutoUpdate</key>
+			<false/>
+			<key>AutoUpdateRestartRequired</key>
+			<false/>
+		</dict>
+		
+	</array>
+</dict>
+</plist>
