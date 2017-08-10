@@ -115,6 +115,44 @@
 			</array>
 		</dict>
 
+		<!-- Software Update Configuration -->
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Software Update Settings</string>
+			<key>PayloadIdentifier</key>
+			<string>au.edu.qld.stmonicas.SoftwareUpdate</string>
+			<key>PayloadType</key>
+			<string>com.apple.SoftwareUpdate</string>
+			<key>PayloadUUID</key>
+			<string>622DC38F-CC50-413C-9200-1B4ABC40B8B4</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>AutomaticCheckEnabled</key>
+			<false/>
+		</dict>
+
+		<!-- AppStore Updates -->
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>App Store Automatic Update Settings</string>
+			<key>PayloadIdentifier</key>
+			<string>au.edu.qld.stmonicas.commerce</string>
+			<key>PayloadType</key>
+			<string>com.apple.commerce</string>
+			<key>PayloadUUID</key>
+			<string>D4CEC6BF-09F4-4BB1-9B6B-BCB6BD729F00</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>AutoUpdate</key>
+			<false/>
+			<key>AutoUpdateRestartRequired</key>
+			<false/>
+		</dict>
+
 		<!-- Dock Layout -->
 		<dict>
 			<key>PayloadDisplayName</key>
